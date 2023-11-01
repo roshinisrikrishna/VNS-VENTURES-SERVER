@@ -46,10 +46,10 @@ app.use(bodyParser.json());
 
 // MySQL database configuration
 const db = mysql.createPool({
-  host: 'vnsdbhost.vnsventures.rflabs.in', // MySQL server hostname
+  host: 'vnsdbhost.vnsventuresweb.rflabs.in', // MySQL server hostname
   user: 'roshini', // MySQL username
   password: 'roshini8398', // MySQL password
-  database: 'vnsventuresdb', // MySQL database name
+  database: 'vnsventuredb', // MySQL database name
 });
 
 
