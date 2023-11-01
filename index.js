@@ -89,6 +89,7 @@ const insertQuery = `INSERT INTO filedetails (id, fileName, fileType, fileSize, 
 // Define a route to retrieve file details
 app.get('/get-file-details', (req, res) => {
     // Create a SQL query to select file details from the MySQL table
+    console.log("called function fetch file")
     const selectQuery = 'SELECT id, fileName, fileType, fileSize, uploadDate, contributor, profilePicture, views, favorites FROM filedetails';
   
     // Execute the SQL query to retrieve file details
